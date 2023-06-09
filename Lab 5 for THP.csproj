@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Lab_5_for_THP</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Lab 3 for THP\Lab 3 for THP\Lab 3 for THP.csproj" />
+    <ProjectReference Include="..\..\Lab 4 for THP\Lab 4 for THP\Lab 4 for THP.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Lab 4 for THP">
+      <HintPath>..\..\Lab 4 for THP\Lab 4 for THP\bin\Debug\net6.0\Lab 4 for THP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
